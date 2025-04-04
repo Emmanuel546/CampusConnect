@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Sansation:400,700&display=swap');
+
+
+body {
+    width: 430px;
+    height: 932px;
+    background-color: gray;
+}
+
+.Settings-container {
+    width: 430px;
+    height: 932px;
+    background-color: white;
+}
+
+i{
+    display:  inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    width: 24px;
+    height: 24px;
+    padding: 20px 0px 0px 20px;
+}
+
+.text-head {
+    visibility: hidden;
+}
+
+.Settings-header {
+    font-size: 18px;
+    font-family: Helvetica, sansation, sans-serif;
+    color: black;
+    border-color: black;
+    box-shadow: black;
+    padding: 10px;
+}
+
+.Settings-content-item{
+    font-family: Helvetica, sans-serif;
+    color: black;
+    border-color: black;
+    padding: 20px;
+
+}
+
+.Settings-content-items {
+    font-family: Helvetica, sans-serif;
+    color: black;
+    border-color: black;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.text {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}

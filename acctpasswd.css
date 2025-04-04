@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Sanserif:400,700&display=swap');
+
+
+body {
+    background-color: #333;
+}
+
+.Accountpassword-all {
+    width: 430px;
+    height: 932px;
+    background-color: white;
+}
+
+a {
+    margin: 10px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-decoration: none;
+}
+
+.text-head {
+    opacity: 0;
+}
+
+header {
+    background: #fff;
+    color : #333;
+    padding: 10px 0;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 16px;
+    font-style: Sanserif;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputclass {
+    width: 356px;
+    height: 90px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.text {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+p {
+    margin-left: 20px;
+}

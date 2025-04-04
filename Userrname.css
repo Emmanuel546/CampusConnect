@@ -1,0 +1,57 @@
+body {
+    width: 430px;
+    height: 932px;
+    background-color: black;
+}
+
+.namefile {
+    width: 430px;
+    height: 932px;
+    background-color: white;
+}
+
+.back-button {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 10px;
+}
+
+a .text-head {
+    display: flex;
+    opacity: 0;
+}
+
+i {
+    color: black;
+    margin: 20px 0px 0px 10px;
+}
+
+.Name {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0px 0px 0px 20px;
+    
+    
+}
+
+.Name-content-item {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border-color: black;
+    width: 350px;
+    height: 89px;
+}
+
+input {
+    width: 350px;
+    height: 89px;
+    margin: 0px 0px 0px 20px;
+    border-radius: 30px;
+}
+
+input::placeholder {
+    padding: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}

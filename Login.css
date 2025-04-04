@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 430px;
+    height: 932px;
+}
+
+.Login-all {
+    width: 430px;
+    height: 932px;
+    background-color: white;
+    
+}
+
+h1 {
+    margin: 180px 0px 0px 30px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+.Login-class {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px 0px 20px;
+   
+}
+
+input {
+    width: 339px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 10px
+}
+
+input::placeholder {
+    padding: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="checkbox"] {
+    display: flex;
+    float: right;
+    width: 20px;
+    height: 20px;
+    accent-color: #11b5aa; /* Change checkbox color */
+    cursor: pointer;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: #12a38d;
+}
+
+input[type="submit"]:active {
+    background-color: #0b6e5c;
+}
+
+input[type="submit"] {
+    width: 350px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #41d9d1;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    float: middle;
+}
+
+p {
+    margin: 15px 0;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.line {
+    width: 132px;
+    height: 5px;
+    background-color:#5a4d4d;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #00a9a9);
+}
+
+.line2 {
+    width: 132px;
+    height: 5px;
+    background-color:#5a4d4d;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #00a9a9);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px; /* Space between items */
+    margin: 0px 30px 20px 0px;
+}
+
+.password-f {
+    display: block;
+    text-align: right;
+    margin: 0px 60px 0px 0px;
+}
+
+.social-icons {
+    display: flex;
+    mix-blend-mode: multiply;
+    justify-content: center;
+    
+}
+ img {
+    margin: 20px 20px 0px 0px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #41d9d1;
+    mix-blend-mode: multiply;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.create-account {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+

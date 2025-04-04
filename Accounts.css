@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.accountsall {
+    width: 430px;
+    height: 932px;
+    background-color: white;
+}
+
+i {
+    margin: 20px 0px 0px 20px;
+    color: black;
+}
+
+a .text-head {
+    display: flex;
+    opacity: 0;
+}
+
+.Accounts-header {
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border-color: black;
+    padding: 10px;
+}
+
+.Accounts-content {
+    margin-left: 20px;
+    width: 385px;
+    height: 219px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    font-family: Helvetica, sans-serif;
+}
+
+.Accounts-content-item {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border-color: black;
+    padding: 20px;
+    width: 373px;
+    height: 36px;
+}
+
+.text {
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+

@@ -1,0 +1,250 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+   
+    background-color: gray;
+}
+
+.whole {
+    width: 430px;
+    height: 932px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.Settings {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+
+}
+
+.Settingslink {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    margin: 10px 0px 0px 50px;
+}
+
+.text-setting {
+    opacity: 0;
+}
+
+.profile-card {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 0px 0px 50px;
+}
+
+.profile-pic {
+    position: relative;
+    width: 95px;
+    height: 95px;
+}
+
+.profile-pic img {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+
+    align-items: center;
+    display: flex;
+}
+
+.profile-pic img:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.add-icon:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out; 
+
+}
+
+
+.add-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background: #00cfcf;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.profile-stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.profile-stats div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 14px;
+}
+
+.bio {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.bio a {
+    color: blue;
+    text-decoration: none;
+}
+
+.category {
+    color: gray;
+    font-size: 12px;
+}
+
+.profile-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-buttons button {
+    width: 178px;
+    height: 30px;
+    background: white;
+    border: 1px solid black;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10px;
+}
+
+.profile-buttons button:hover {
+    background: #f0f0f0;
+}
+
+.Profilepostsheader {
+    display: flex;
+    flex-direction: row;
+}
+
+.postsheader {
+    width: 215px;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+.postsheader i {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.postsheader2 {
+    width: 215px;
+    background-color: white;
+}
+
+.postsheader2 i {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.Profilepostscontentflow {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 1px; /* Spacing between images */  
+}
+
+.Profilepostcontent img {
+    width: 142px;
+    height: 142px;
+    border-radius: 1px; /* Optional: Rounded corners */
+    object-fit: cover;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 24px;
+    border-radius: 5px;
+    padding: 10px 0px;
+    background-color: black;
+    margin-top: 110px;
+}
+
+.nav-item {
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   text-align: center;
+   flex: 1;
+   color: #fff;
+}
+
+.nav-item i {
+    color: black;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #3EB489;
+    border: 3px solid white;
+}
+
+.nav-item span {
+    opacity: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-item.active i {
+    transform: scale(1.5);  /* Increase size */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.nav-item.active .text-bottom {
+    font-size: 14px; /* Optionally change font size */
+}
+
+
