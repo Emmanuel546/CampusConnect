@@ -50,15 +50,7 @@ CampusConnect is a web-based social platform designed exclusively for university
 - **Data Storage:** LocalStorage or SessionStorage
 - **Authentication:** Simple front-end verification with university email
 
-## Installation & Setup
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/CampusConnect.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd CampusConnect
-   ```
+
 3. Open `index.html` in a web browser to run the application.
 
 ## Contributing
