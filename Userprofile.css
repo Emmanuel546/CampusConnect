@@ -184,14 +184,14 @@ body {
 
 .Profilepostscontentflow {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    gap: 1px; /* Spacing between images */  
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1px; 
 }
 
 .Profilepostcontent img {
     width: 142px;
     height: 142px;
-    border-radius: 1px; /* Optional: Rounded corners */
+    border-radius: 1px; 
     object-fit: cover;
 }
 
@@ -226,7 +226,7 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #3EB489;
+    background-color: #11b5aa;
     border: 3px solid white;
 }
 
@@ -239,12 +239,12 @@ a {
 }
 
 .nav-item.active i {
-    transform: scale(1.5);  /* Increase size */
-    transition: transform 0.3s ease; /* Smooth transition */
+    transform: scale(1.5);  
+    transition: transform 0.3s ease; 
 }
 
 .nav-item.active .text-bottom {
-    font-size: 14px; /* Optionally change font size */
+    font-size: 14px; 
 }
 
 
