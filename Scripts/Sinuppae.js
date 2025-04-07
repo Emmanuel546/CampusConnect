@@ -27,6 +27,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Simulate successful signup (Replace this with actual backend logic)
         alert("Signup successful! Redirecting to login page...");
-        window.location.href = "login.html"; // Redirect to login page
+        window.location.href = "Home.html"; // Redirect to login page
     });
 });

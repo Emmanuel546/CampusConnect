@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // 1️⃣ Highlight Active Navigation Item
+    // Highlight Active Navigation Item
     let navItems = document.querySelectorAll(".nav-item a");
     let currentPage = window.location.pathname.split("/").pop();
 
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    // 2️⃣ Enable Horizontal Scrolling for Stories
+    // Enable Horizontal Scrolling for Stories
     let storyContainer = document.querySelector(".containerstory");
     if (storyContainer) {
         storyContainer.style.overflowX = "auto";
@@ -20,14 +20,14 @@ document.addEventListener("DOMContentLoaded", function () {
         storyContainer.style.padding = "10px";
     }
 
-    // 3️⃣ Like Button Animation
+    // Like Button Animation
     document.querySelectorAll(".fa-heart").forEach(heart => {
         heart.addEventListener("click", function () {
             this.classList.toggle("liked");
         });
     });
 
-    // 4️⃣ Show/Hide Caption Toggle
+    // Show/Hide Caption Toggle
     document.querySelectorAll(".Caption").forEach(caption => {
         let toggleBtn = document.createElement("button");
         toggleBtn.innerText = "Hide Caption";
