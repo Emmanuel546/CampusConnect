@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
         let newNotification = document.createElement("div");
         newNotification.classList.add("notification-item");
         newNotification.innerHTML = `
-            <img src="ethan-hoover.jpg" alt="Profile Picture">
+            <img src="../Images/ethan-hoover.jpg" alt="Profile Picture">
             <p><b>John Doe</b> commented on your post . 5m</p>
         `;
         document.querySelector(".notification-half").appendChild(newNotification);
