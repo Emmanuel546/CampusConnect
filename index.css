@@ -148,7 +148,7 @@ a {
 }
 
 .hero {
-    background-image: url("../Images/rineshkumar.jpg");
+    background-image: url("/Images/rineshkumar.jpg");
     background-size: cover;
     background-position: center;
     min-height: 100vh;
